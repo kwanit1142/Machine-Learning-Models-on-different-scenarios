@@ -1,0 +1,15 @@
+Time,Temperature,Friend_Attending,Windy,Attend
+Morning,Hot,Yes,Low,No
+Morning,Hot,Yes,High,No
+Afternoon,Hot,Yes,Low,Yes
+Evening,Warm,Yes,Low,Yes
+Evening,Cool,No,Low,Yes
+Evening,Cool,No,High,No
+Afternoon,Cool,No,High,Yes
+Morning,Warm,Yes,Low,No
+Morning,Cool,No,Low,Yes
+Evening,Warm,No,Low,Yes
+Morning,Warm,No,High,Yes
+Afternoon,Warm,Yes,High,Yes
+Afternoon,Hot,No,Low,Yes
+Evening,Warm,Yes,High,No
