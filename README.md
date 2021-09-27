@@ -6,7 +6,7 @@ These Notebooks with their Question Statement and Reports, came under the course
 
 ## Lab-2 :- Decision Tree
 
-## Lab-3 :- Random Forest and Baging Classifier
+## Lab-3 :- Random Forest and Bagging Classifier
 
 ## Lab-4 :- Adaboost and Bayes Classification
 
