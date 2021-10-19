@@ -1,6 +1,6 @@
 # Machine-Learning Models on Different Scenarios
 
-These Notebooks with their Question Statement and Reports, came under the course CSL2050, taken by Prof.Richa Singh.
+These Notebooks with their Question Statement and Reports, came under the course CSL2050, taken by Prof. Richa Singh.
 
 ## Lab-1 :- Confusion Matrix
 
