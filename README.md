@@ -128,12 +128,35 @@
 
 <h2 class="code-line" data-line-start=30 data-line-end=31><a id="Lab7__MultiLayer_Perceptron_KMeans_Clustering_and_Neural_Network_30"></a>Lab-7 :- Multi-Layer Perceptron, K-Means Clustering and Neural Network</h2>
 
-<p class="has-line-data" data-line-start="32" data-line-end="34"><img src="https://user-images.githubusercontent.com/54277039/139558298-1dc2aa04-b20b-43eb-81ce-43c15c5793f0.png" alt="image" height="400" width="1000" align="center"><br>
-<img src="https://user-images.githubusercontent.com/54277039/139558312-16a09aa0-7d69-44eb-9591-fab6c80399d9.png" alt="image" height="400" width="1000" align="center"></p>
+<p class="has-line-data" data-line-start="32" data-line-end="34"><img src="https://user-images.githubusercontent.com/54277039/139558298-1dc2aa04-b20b-43eb-81ce-43c15c5793f0.png" alt="image" height="400" width="1000" align="center"><br></p>
+<p>The objective of this assignment is to learn to implement Multi Layer Perceptron (MLP) from scratch using python. For this a nice tutorial has been provided. After implementing MLP from scratch, you need to compare it with Sklearn’s in-built implementation (resource-2). For this you are supposed to use wheat seeds dataset provided.</p>
+<p>Please go through the following blog to learn how to recognize handwritten digits using Neural Network. Here Neural Network is coded using PyTorch Library in Python.</p>
+<p>Use above code and report your observation based on the following: </p>
+<p>(i) Change loss function,</p>
+<p>(ii) Change in learning rate, and</p>
+<p>(iii) Change in Number of hidden layers</p>
+<p><img src="https://user-images.githubusercontent.com/54277039/139558312-16a09aa0-7d69-44eb-9591-fab6c80399d9.png" alt="image" height="400" width="1000" align="center"></p>
+<p>You may use the MNIST dataset or any dataset for Face Images or Flower Images or Iris dataset for this Question.</p>
+<p>Implement k-means clustering. Analyse the clusters formed for various values of k. Display the centroids of the clusters. DO NOT USE IN_BUILT ROUTINE for k-means clustering.</p>
 <h2 class="code-line" data-line-start=35 data-line-end=36><a id="Lab8__Dimensionality_Reduction_and_Feature_Selection_35"></a>Lab-8 :- Dimensionality Reduction and Feature Selection</h2>
 
-<p class="has-line-data" data-line-start="37" data-line-end="39"><img src="https://user-images.githubusercontent.com/54277039/139558346-9803c9a8-d3dd-4d0a-a1b7-3b625c07c683.png" alt="image" height="400" width="1000" align="center"><br>
-<img src="https://user-images.githubusercontent.com/54277039/139558360-2f2e68a4-8992-4c19-b2dc-cdd94e4a639d.png" alt="image" height="400" width="1000" align="center"></p>
+<p class="has-line-data" data-line-start="37" data-line-end="39"><img src="https://user-images.githubusercontent.com/54277039/139558346-9803c9a8-d3dd-4d0a-a1b7-3b625c07c683.png" alt="image" height="400" width="1000" align="center"><br></p>
+<p>Using the data set, execute a PCA analysis using at least two dimensions of data (note that the last column should not be used here). In your code , discuss/include the following items.</p>
+<p>1. Standardize the data.</p>
+<p>2. How many eigenvectors are required to preserve at least 90% of the data variation?</p>
+<p>3. Look at the first eigenvector. What dimensions are the primary contributors to it (have the largest coefficients)? Are those dimensions negatively or positively correlated? </p>
+<p>4. Show a plot of your transformed data using the first two eigenvectors. </p>
+<p>For the aforementioned dataset perform Linear discriminant analysis </p>
+<p>1. Compare the results of PCA and LDA. </p>
+<p>2. Plot the distribution of samples using the first 2 principal components and the first 2 linear discriminants.</p>
+<p>3. Learn a Bayes classifier using the original features and compare its performance with the features obtained in part (b).</p>
+
+<p><img src="https://user-images.githubusercontent.com/54277039/139558360-2f2e68a4-8992-4c19-b2dc-cdd94e4a639d.png" alt="image" height="400" width="1000" align="center"></p>
+<p>Perform feature selection using any 2  methods studied in class and do the  classification for the dataset using a classification algorithm of your choice. Do the following tasks: </p>
+<p>1. Preprocess the data and perform exploratory data analysis.</p>
+<p>2. Identify the  features having high significance using both of the methods.</p>
+<p>3. Calculate and compare the  accuracy and F1 score by both the methods and with the classifier learned using all the features (without doing feature selection), and analyze which method performs the best and why.</p>
+<p>4. Use Pearson Correlation and compute correlated features with a threshold of 70%.</p>
 <h2 class="code-line" data-line-start=40 data-line-end=41><a id="Lab9__Support_Vector_Machines_40"></a>Lab-9 :- Support Vector Machines</h2>
 <p class="has-line-data" data-line-start="42" data-line-end="43"><img src="https://user-images.githubusercontent.com/54277039/139558368-198043d9-44b3-447e-b039-af0a12541f08.png" alt="image" height="400" width="1000" align="center"></p>
 <p>Problem 1 (Handwritten Digit Classification):</p>
