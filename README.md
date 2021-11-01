@@ -29,6 +29,17 @@
 <h2 class="code-line" data-line-start=12 data-line-end=13><a id="Lab3__Random_Forest_and_Bagging_Classifier_12"></a>Lab-3 :- Random Forest and Bagging Classifier</h2>
 
 <p class="has-line-data" data-line-start="14" data-line-end="16"><img src="https://user-images.githubusercontent.com/54277039/139558195-6f6ce0af-ac1a-4f52-8895-57d55daa20c6.png" alt="image" height="400" width="1000" align="center"><br></p>
+<p>Consider the credit sample dataset, and predict whether a  customer will repay their credit within 90 days. This is a binary classification problem; we will assign customers into good or bad categories based on our prediction.</p>
+<p>Data Description:-</p>
+<p>Features --> Variable Type	--> Value Type --> Description</p>
+<p></p>
+<p>Age --> Input Feature --> integer --> Customer age</p>
+<p>Debt Ratio --> Input Feature --> real --> Total monthly loan payments (loan, alimony, etc.) / Total monthly income percentage.</p>
+<p>Number_Of_Time_30-59_Days_Past_Due --> Input Feature --> integer --> The number of cases when a client has overdue 30-59 days (not worse) on other loans during the last 2 years.</p>
+<p>Number_Of_Time_60-89_Days_Past_Due --> Input Feature --> integer --> A number of cases when the customer has 60-89dpd (not worse) during the last 2 years.</p>
+<p>Number_Of_Times_90_Days_Late --> Input Feature --> integer --> Number of cases when a customer had 90+dpd overdue on other credits</p>
+<p>Dependents --> Input Feature --> integer --> The number of customer dependents</p>
+<p>Serious_Dlq_in_2yrs --> Target Variable	 --> Binary: 0 or 1 --> The customer hasn't paid the loan debt within 90 days</p>
 <p>Perform the following tasks for this dataset:-</p>
 <p>Question-1 (Random Forest):</p>
 <p>1. Preprocessing the data.</p>
